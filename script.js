@@ -10,7 +10,7 @@ function decimalToBinary(num) {
 		bin = bin + rem*i;
 		i = i*10;
 	}
-	console.log(bin);
+	return bin;
 }
 
 window.decimalToBinary = decimalToBinary;
